@@ -1,0 +1,10 @@
+ethers.parseEther("0.02") }); 
+tx = await contractWithSigner.setMessage("Hello, Hardhat!", { value: 
+ethers.parseEther("0.01") }); 
+tx = await contractWithSigner.setMessage("Hello, Hardhat!", { value: 
+contractWithSigner = new ethers.Contract(contractAddress, abi, signer); 
+signer = await ethers.provider.getSigner() 
+contract.sayMessage() 
+const contract = new ethers.Contract(contractAddress, abi, ethers.provider); 
+const contractAddress = "0x03A9820C4553E622679b594692d64c89c1DAd72d";
+const abi = require('./artifacts/contracts/HelloWorld.sol/HelloWorld.json').abi;
