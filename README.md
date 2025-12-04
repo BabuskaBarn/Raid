@@ -1,4 +1,4 @@
-
+In NoBodesModule which is the working path as main is not up to date
 npx hardhat compile
 npx hardhat ignition deploy ignition/modules/Raid.js --network sepolia
 npx hardhat verify --network sepolia  0xBBa2cCC48Da645a5bC09B8C331E8E077E0387a12 (Verify hat noch fehler)
