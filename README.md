@@ -1,8 +1,24 @@
 In NoBodesModule which is the working path as main is not up to date
+npm init -y
+npm install --save-dev hardhat
+
+
 npx hardhat compile
 npx hardhat ignition deploy ignition/modules/Raid.js --network sepolia
-npx hardhat verify --network sepolia  0xBBa2cCC48Da645a5bC09B8C331E8E077E0387a12 (Verify hat noch fehler)
+To verify Contract use:
+npx hardhat verify --network sepolia Your_Contract  (RaidBossRPGModule#RaidBossRPG)
 
+In Etherscanunder under Contract: write Contract 
+
+Conect to Web3 via Metamask
+
+
+attacks can be executed
+The Raidboss can be executed
+andRewards can be claimed once the boss is dead
+
+
+Test for Console
 npx hardhat console
 in hardhat console:
 
@@ -19,7 +35,8 @@ Attack:
 const tx2 = await game.attack(0); // 0, 1, or 2
 await tx2.wait();
 
-Claim rewards:
+
+Claim rewards (only executable once RaidBoss is dead):
 const tx3 = await game.claim();
 await tx3.wait();
 
