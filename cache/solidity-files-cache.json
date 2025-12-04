@@ -1,42 +1,6 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\barna\\Desktop\\fhv\\Blockchain\\Tasks\\Task1\\contracts\\HelloWorld.sol": {
-      "lastModificationDate": 1764772565710,
-      "contentHash": "d107c56e05fb238b2273d7226e113650",
-      "sourceName": "contracts/HelloWorld.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "HelloWorld"
-      ]
-    },
     "C:\\Users\\barna\\Desktop\\fhv\\Blockchain\\Tasks\\Task1\\contracts\\Lock.sol": {
       "lastModificationDate": 1764773529282,
       "contentHash": "642fa52ab63153524e2438211810ea7e",
@@ -71,6 +35,78 @@
       ],
       "artifacts": [
         "Lock"
+      ]
+    },
+    "C:\\Users\\barna\\Desktop\\fhv\\Blockchain\\Raid\\contracts\\Lock.sol": {
+      "lastModificationDate": 1764773529282,
+      "contentHash": "642fa52ab63153524e2438211810ea7e",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "Lock"
+      ]
+    },
+    "C:\\Users\\barna\\Desktop\\fhv\\Blockchain\\Raid\\contracts\\Raid.sol": {
+      "lastModificationDate": 1764862037331,
+      "contentHash": "13d763bc9c90505acb20e6282e795038",
+      "sourceName": "contracts/Raid.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "RaidBossRPG"
       ]
     }
   }
