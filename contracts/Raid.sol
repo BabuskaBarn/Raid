@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.28;
 
 /// @title RaidBossRPG - minimal on-chain "raid boss" with proportional rewards
 /// @notice Educational example: randomness is NOT secure for real money.
